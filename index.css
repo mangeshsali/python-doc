@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,450&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+nav header {
+  padding: 20px;
+  font-weight: 800;
+  font-size: 20px;
+}
+.main-section header {
+  font-size: 35px;
+  font-weight: 700;
+}
+nav {
+  height: 100vh;
+  max-width: 550px;
+  background-color: #eee;
+  border-right: 2px solid #777;
+  position: fixed;
+  /* overflow: hidden; */
+  overflow-y: scroll;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+  align-items: center;
+  padding: 25px;
+  padding-left: 324px;
+  line-height: 1.4;
+  font-size: 18px;
+  font-weight: 100;
+}
+nav a {
+  padding: 20px;
+  border-top: 2px solid #777;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  background-color: rgb(163, 159, 159);
+}
+B {
+  background-color: #eee;
+  font-weight: 0px;
+}
+span {
+  background-color: rgb(255, 255, 172);
+  padding: 7px 15px;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+h4 {
+  color: rgb(59, 105, 255);
+}
+h3 {
+  color: rgb(255, 106, 106);
+}
+header {
+  color: rgb(32, 155, 38);
+}
+@media only screen and (max-width: 786px) {
+  #navbar {
+    background-color: white;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 250px;
+    border: none;
+    border-bottom: 2px solid;
+    overflow-y: scroll;
+  }
+  #main-doc {
+    position: absolute;
+    flex-direction: column;
+    padding-left: 25px;
+    margin-top: 65%;
+  }
+  main {
+    height: auto;
+    width: 100%;
+  }
+  hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
